@@ -4,13 +4,13 @@ class CuboidMaker {
         this.length = attributes.length;
         this.height = attributes.height;
         this.width = attributes.width;
-        this.volume = function(){
-            return this.length * this.height * this.width;
-        }
     }
-        surfaceArea() {
-            return 2 *(this.length * this.width + this.length * this.height + this.width * this.height); 
-        }
+    volume() {
+        return (this.length * this.height * this.width);
+    }
+    surfaceArea() {
+        return 2 *(this.length * this.width + this.length * this.height + this.width * this.height); 
+    }
     
 }
 
